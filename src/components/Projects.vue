@@ -40,7 +40,7 @@
             name: 'CFDV',
             imageName: 'cfdv',
             url: 'http://www.cfdv.org',
-            description: 'CFDV was a freelance project done for a scientific non-profit. It features a custom build CMS to allow the administrators to create events, job postings, awards, and allows users to register for events, buy membership, and inquire about sponsoring events.',
+            description: 'CFDV was a freelance project done for a scientific non-profit organization. It features a custom built CMS to allow the administrators to create events, job postings, and awards.  In addition, it allows users to register for events, buy membership, and inquire about sponsoring events.',
             technologies: ['Laravel', 'PHP', 'Bootstrap', 'PayPal API', 'MySql', 'Apache'],
           },
           {
@@ -54,7 +54,7 @@
             name: 'My /r/ Stream',
             imageName: 'myrstream',
             url: 'https://myrstream.herokuapp.com',
-            description: 'A newly created open-source personal project to allow a user to frequently update the user to Reddit content, allowing the user to remain up to date across multiple channels.',
+            description: 'A newly created open-source personal project to frequently update a user with recent Reddit content, allowing the user to remain up to date across multiple channels.',
             technologies: ['Vue', 'Webpack', 'Node.js', 'Reddit API', 'Heroku'],
           },
         ],

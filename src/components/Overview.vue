@@ -66,11 +66,10 @@ export default {
 <style lang="scss" scoped>
   @import '../../src/assets/css/_colors.scss';
 
-
   .overview {
     background: url('../assets/img/main-photo.jpg') fixed;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 
     .title {
