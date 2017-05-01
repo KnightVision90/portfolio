@@ -1,6 +1,7 @@
 <template>
   <div id="past-works">
     <h3 class="text-xs-center">Projects</h3>
+    <hr>
     <v-container fluid="true">
       <v-row>
         <v-col v-for="(project, index) in projects" :key="index" xs12 lg4 class="project-container">
@@ -75,8 +76,15 @@
     padding: 0 10px;
 
     h3 {
-      padding: 2vh 0;
+      padding: 5vh 0 2vh;
       color: $red;
+    }
+
+    & > hr {
+      border: 1px solid $white;
+      background-color: $white;
+      margin: 2vh auto 5vh;
+      width: 70%;
     }
 
     .project-container {
