@@ -3,7 +3,7 @@
     <h3 class="text-xs-center">Projects</h3>
     <v-container fluid="true">
       <v-row>
-        <v-col v-for="project in projects"  xs12 lg4 class="project-container">
+        <v-col v-for="(project, index) in projects" :key="index" xs12 lg4 class="project-container">
           <div class="project">
             <a :href="project.url">
               <h4 class="text-xs-center">{{ project.name }}</h4>
