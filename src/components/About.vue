@@ -26,8 +26,8 @@
           <v-icon>merge_type</v-icon>
           <h5>Integrate</h5>
           <p>
-            Sometimes you see an awesome feature you'd like on your site and sometimes you dream it up all on your own.
-            Either way, I can help add it to your site.
+            Maybe you thought of a new feature for your site or maybe you just came across something cool when surfing
+            the web. Either way, I can help add it to your site.
           </p>
         </v-col>
       </v-row>
