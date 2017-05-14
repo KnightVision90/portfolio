@@ -3,20 +3,23 @@
     <overview-component></overview-component>
     <about-component></about-component>
     <projects-component></projects-component>
+    <contact-component></contact-component>
   </div>
 </template>
 
 <script>
 import AboutComponent from './About';
+import ContactComponent from './Contact';
 import OverviewComponent from './Overview';
 import ProjectsComponent from './Projects';
 
 export default {
   name: 'Portfolio',
   components: {
+    AboutComponent,
+    ContactComponent,
     OverviewComponent,
     ProjectsComponent,
-    AboutComponent,
   },
 };
 </script>
