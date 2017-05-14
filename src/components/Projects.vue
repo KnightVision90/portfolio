@@ -1,8 +1,8 @@
 <template>
   <div id="past-works">
     <h3 class="text-xs-center">Projects</h3>
-    <hr>
-    <v-container fluid="true">
+    <h4 class="text-xs-center">Turning ideas into reality</h4>
+    <v-container class="project-row">
       <v-row>
         <v-col v-for="(project, index) in projects" :key="index" xs12 lg4 class="project-container">
           <div class="project">
@@ -73,60 +73,54 @@
 
   #past-works {
     background-color: $dark_blue;
-    padding: 0 10px;
+    padding: 5vh 0 5vh;
 
     h3 {
-      padding: 5vh 0 2vh;
+      padding: 5vh 0 0;
       color: $red;
+      font-weight: bold;
     }
 
-    & > hr {
-      border: 1px solid $white;
-      background-color: $white;
-      margin: 2vh auto 5vh;
-      width: 70%;
+    h4 {
+      color: $white;
+      font-weight: lighter;
     }
 
-    .project-container {
-      padding: 10px;
+    .project-row {
+      .project-container {
+        padding-top: 5vh;
+        .project {
+          background-color: $white;
+          padding: 5px;
+          height: 100%;
+          box-shadow: 0 0 10px $black;
 
-      .project {
-        background-color: $white;
-        padding: 5px;
-        height: 100%;
-        box-shadow: 0 0 10px $black;
+          a {
+            text-decoration: none;
+            display: block;
 
-        a {
-          text-decoration: none;
-          display: block;
+            &:hover {
+              h4 {
+                color: $red;
+              }
+              .screenshot-web {
+                border-color: $red;
+              }
+            }
 
-          &:hover {
             h4 {
-              color: $red;
+              color: $blue;
             }
             .screenshot-web {
-              border-color: $red;
+              max-width: 98%;
+              display: block;
+              border: 1px solid $blue;
             }
           }
 
-          h4 {
-            color: $blue;
+          .project-description {
+            color: $black;
           }
-          .screenshot-web {
-            max-width: 98%;
-            display: block;
-            border: 1px solid $blue;
-          }
-        }
-
-        hr {
-          background-color: $red;
-          border: 1px solid $red;
-          margin: 5px 0;
-        }
-
-        .project-description {
-          color: $black;
         }
       }
     }
