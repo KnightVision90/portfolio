@@ -85,6 +85,11 @@
       };
     },
     methods: {
+      resetForm() {
+        this.email = '';
+        this.name = '';
+        this.message = '';
+      },
       sendEmail() {
         if (!this.validateForm()) {
           this.emailFailed = true;
@@ -102,6 +107,7 @@
         ).then(() => {
           this.status = 'Email sent!';
           this.emailFailed = false;
+          this.resetForm();
         }).catch(() => {
           this.status = `Something went wrong. Try contacting me directly at ${this.myEmail}.`;
           this.emailFailed = true;
