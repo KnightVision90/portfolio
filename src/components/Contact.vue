@@ -140,7 +140,7 @@
     }
 
     h4 {
-      color: $light_blue;
+      color: $white;
       font-weight: lighter;
     }
 

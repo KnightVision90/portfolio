@@ -35,7 +35,7 @@
 
 <script>
 export default {
-  name: 'Overview',
+  name: 'overview',
   data() {
     return {
       index: 0,
