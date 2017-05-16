@@ -19,7 +19,7 @@
           </a>
         </v-col>
         <v-col xs4>
-          <a href="https://www.linkedin.com/in/joseph-moran-58a30882">
+          <a href="https://www.linkedin.com/in/joseph-moran-iii-58a30882">
             <img src="../assets/img/logos/linkedin.png" alt="linked in">
           </a>
         </v-col>
