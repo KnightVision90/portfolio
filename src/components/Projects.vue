@@ -10,9 +10,7 @@
               <h4 class="text-xs-center">{{ project.name }}</h4>
               <img :src="getProjectImage(project.imageName)" :alt="project.name" class="screenshot-web">
             </a>
-
-            <hr>
-
+            <br>
             <div class="project-description">
               <strong>Description:</strong> {{ project.description }}
             </div>
