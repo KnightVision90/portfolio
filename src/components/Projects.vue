@@ -4,7 +4,7 @@
     <h4 class="text-xs-center">Turning ideas into reality</h4>
     <v-container class="project-row">
       <v-row>
-        <v-col v-for="(project, index) in projects" :key="index" xs12 lg4 class="project-container">
+        <v-col v-for="(project, index) in projects" :key="index" xs12 lg6 class="project-container">
           <div class="project">
             <a :href="project.url">
               <h4 class="text-xs-center">{{ project.name }}</h4>
@@ -37,6 +37,13 @@
         pathToProjects: require.context('../assets/img/sites', false),
         projects: [
           {
+            name: 'The Restaurant Store',
+            imageName: 'trs',
+            url: 'https://www.therestaurantstore.com',
+            description: 'As a full-time employee of Clark Associates, I worked to rewrite the entire e-commerce website as well as create a Payment API that is to be used across multiple company sites.',
+            technologies: ['Laravel', 'PHP', 'JavaScript', '.Net Core', 'C#', 'Vue', 'T-Sql', 'GraphQL', 'PayPal API', 'Authorize.Net', 'Swagger'],
+          },
+          {
             name: 'CFDV',
             imageName: 'cfdv',
             url: 'http://www.cfdv.org',
@@ -44,17 +51,17 @@
             technologies: ['Laravel', 'PHP', 'Bootstrap', 'PayPal API', 'MySql', 'Apache'],
           },
           {
-            name: 'The Restaurant Store',
-            imageName: 'trs',
-            url: 'https://www.therestaurantstore.com',
-            description: 'As a full-time employee of Clark Associates, I worked to rewrite the entire e-commerce website as well as create a Payment API that is to be used across multiple company sites.',
-            technologies: ['Laravel', 'PHP', 'JavaScript', 'jQuery', 'PayPal API', 'Authorize.Net', 'MsSql', 'Swagger', 'Gulp'],
+            name: 'Estate Liquidation Service',
+            imageName: 'els',
+            url: 'http://www.estateliquidationservice.co',
+            description: 'Estate Liquidation Service was a freelance project done for a close family member\'s business. It features an admin approval registration system, functionality to let users request items from estates and commit to picking them up for a specified price, and an admin side to perform, manage, and track sales.',
+            technologies: ['Laravel', 'PHP', 'Vue', 'MySql', 'Apache', 'Websockets'],
           },
           {
             name: 'My /r/ Stream',
             imageName: 'myrstream',
             url: 'https://myrstream.herokuapp.com',
-            description: 'A newly created open-source personal project to frequently update a user with recent Reddit content, allowing the user to remain up to date across multiple channels.',
+            description: 'An open-source personal project to frequently update a user with recent Reddit content, allowing the user to remain up to date across multiple channels.',
             technologies: ['Vue', 'Webpack', 'Node.js', 'Reddit API', 'Heroku'],
           },
         ],

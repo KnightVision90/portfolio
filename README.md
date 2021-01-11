@@ -1,6 +1,6 @@
-# JosephMoran.co
+# Morandustries.com
 
-> Personal website
+> Personal website for Joseph Moran III
 
 ## Build Setup
 

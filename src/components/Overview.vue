@@ -13,19 +13,14 @@
 
     <v-container class="social-network-container">
       <v-row>
-        <v-col xs4>
+        <v-col xs6>
           <a href="https://github.com/KnightVision90">
             <img src="../assets/img/logos/github.png" alt="github">
           </a>
         </v-col>
-        <v-col xs4>
+        <v-col xs6>
           <a href="https://www.linkedin.com/in/joseph-moran-iii-58a30882">
             <img src="../assets/img/logos/linkedin.png" alt="linked in">
-          </a>
-        </v-col>
-        <v-col xs4>
-          <a href="https://www.twitter.com/streammythos">
-            <img src="../assets/img/logos/twitter.png" alt="twitter">
           </a>
         </v-col>
       </v-row>
@@ -43,6 +38,7 @@ export default {
         'php.gif',
         'javascript.png',
         'laravel.png',
+        'netcore.png',
         'nodejs.png',
         'mysql.png',
         'mssql.png',
@@ -58,7 +54,7 @@ export default {
   created() {
     setInterval(() => {
       this.index = (this.index + 1) % this.logos.length;
-    }, 2000);
+    }, 1500);
   },
 };
 </script>
